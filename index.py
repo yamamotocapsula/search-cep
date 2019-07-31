@@ -7,6 +7,7 @@ import sys
 import os
 
 with open("CEP.csv") as file:
+	
 	reader = csv.DictReader(file)
 	cont = 0
 
